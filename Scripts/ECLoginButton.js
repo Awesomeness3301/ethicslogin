@@ -6,7 +6,7 @@ var wrongCounter = 0;
 
     if (user.value == "1967EthicsCommittee" && pass.value != "") {
       location.href =
-        "https://sites.google.com/view/the-ethics-committee-homepage/home";
+        "https://sites.google.com/view/bksntheethicscommitteehomepage/home";
     } else if (user.value == "Secret" && pass.value == "Password") {
       window.open("funnywebsite.html", "_blank")
     } else {
@@ -19,4 +19,5 @@ var wrongCounter = 0;
     if (wrongCounter == 3) {
       location.href = "accessdenied.html";
     }
+
   }
